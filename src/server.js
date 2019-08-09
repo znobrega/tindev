@@ -3,7 +3,7 @@ const routes = require("./routes");
 const mongoose = require("mongoose");
 
 const server = express();
-mongoose.connect("", {
+mongoose.connect("mongo connect", {
   useNewUrlParser: true
 });
 
