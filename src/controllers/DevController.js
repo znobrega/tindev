@@ -10,7 +10,7 @@ module.exports = {
     const loggedUser = await Dev.findById(user)
 
     const users = await Dev.find({
-      // All conditions
+      // All conditions &&
       $and: [
         // id NotEqual
         { _id: { $ne: user } },
